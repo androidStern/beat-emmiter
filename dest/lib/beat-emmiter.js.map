@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "beat-emmiter.js",
+  "sourceRoot": "../../lib/",
+  "sources": [
+    "beat-emmiter.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAQ,EAAU,IAAX,EAAW;CAAA,QAChB;CADgB"
+}
