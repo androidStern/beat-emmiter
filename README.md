@@ -5,9 +5,26 @@ The best project ever.
 ## Getting Started
 Install the module with: `npm install beat-emmiter`
 
-```javascript
-var beat_emmiter = require('beat-emmiter');
-beat_emmiter.awesome(); // "awesome"
+```coffeescript
+metro = new BeatEmmiter({bpm:120})
+
+metro.on "eighth", console.log
+
+metro.start()
+
+#=> 0
+#=> 1
+#=> 2
+#=> 3
+#=> 4
+#=> 5
+#=> 6
+#=> 7
+#=> 0
+#=> 1
+#=> 2
+# ....
+
 ```
 
 ## Documentation
